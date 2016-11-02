@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class DemoTestNG {
 
 	public static void main(String[] args) throws InterruptedException {
-         WebDriver h= new FirefoxDriver();
+         WebDriver h= new FirefoxDriver();//
 		
 		//HtmlUnitDriver h = new HtmlUnitDriver();
 		h.get("http://www.google.com/");
